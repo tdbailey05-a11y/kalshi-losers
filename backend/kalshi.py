@@ -6,7 +6,7 @@ import json
 import time
 from datetime import date
 
-load_dotenv(Path(__file__).resolve().parent / ".env")
+load_dotenv()
 
 API_BASE = "https://api.elections.kalshi.com/trade-api/v2"
 KEY_ID = os.getenv("key_ID")
